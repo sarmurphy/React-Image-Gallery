@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Rubik+Bubbles&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-container {
+  text-align: center;
+  padding: 50px;
+  border-radius: 15px;
+  backdrop-filter: blur(15px);
+
+}
+
+.text {
+  color: white;
+  font-family: "Rubik Bubbles", system-ui;
+}
+
+form {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.breeds-text {
+  padding: 50px;
+  font-family: "Delius";
+  font-size: 20px;
+  color: black;
+}
+
+.images-text {
+  padding: 20px;
+  font-family: "Delius";
+  font-size: 20px;
+  color: black;
+}
+
+.button {
+  padding: 10px;
+  margin-top: 30px;
+}
+
+body {
+  background-image: url(assets/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-container {
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+  transform: scale(1.1);
+}
+
+img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 10px;
+}
